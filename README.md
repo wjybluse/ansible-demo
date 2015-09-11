@@ -2,7 +2,9 @@
 ## ansible-demo
 #### For what?
 > Simple test for ansible remote copy and execute script
+
 > Simple test for proftp server upload and download
+
 > Simple test for ansible data sync
 
 #### Result
@@ -17,6 +19,7 @@
 
 > Failed task
 ![Failed task](/failed.png)
+
 #### Demo code
 > Execute backup(Copy file to remote node and execute script)
 ```shell
@@ -27,6 +30,7 @@
 ```shell
    ftp -v -n <your host> << EOF
    user <username> <password>
+   binary
    <todo>
    bye
    EOF
