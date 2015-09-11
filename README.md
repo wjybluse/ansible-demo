@@ -7,13 +7,13 @@
 
 #### Result
 > Proftp server install
-[proftp.png](proftp install and start)
+![proftp install and start](/proftp.png)
 
 > Remote copy and execute script result
-[ansible-task.png](Remote copy and execute script)
+![Remote copy and execute script](/ansible-task.png)
 
 > Copy task
-[cop.png](copy the remote file)
+![copy the remote file](copy.png)
 #### Demo code
 > Execute backup(Copy file to remote node and execute script)
 ```shell
