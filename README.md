@@ -14,6 +14,9 @@
 
 > Copy task
 ![copy the remote file](copy.png)
+
+> Failed task
+![Failed task](/failed.png)
 #### Demo code
 > Execute backup(Copy file to remote node and execute script)
 ```shell
