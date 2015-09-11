@@ -9,12 +9,15 @@
 
 #### Result
 > Proftp server install
+
 ![proftp install and start](/proftp.png)
 
 > Remote copy and execute script result
+
 ![Remote copy and execute script](/ansible-task.png)
 
 > Copy task
+
 ![copy the remote file](copy.png)
 
 > Failed task
