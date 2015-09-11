@@ -1,0 +1,9 @@
+- hosts: 192.168.18.120
+  sudo: yes
+
+  tasks:
+     - name: Copy file
+       copy: src=/home/vagrant/backup  dest=/home/vagrant/ owner=vagrant group=vagrant mode=755
+
+     - name: Execute script
+       command: /home/vagrant/backup/execute.sh
